@@ -4,35 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView007"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Android"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:text="Reset"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="82dp"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="629dp"
+        android:layout_width="391dp"
+        android:layout_height="559dp"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="5dp"
-        android:background="@android:color/holo_orange_dark"
+        android:background="@color/Cream"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:background="@android:color/darker_gray">
+        tools:background="@color/Cream">
 
         <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Android"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="41dp"
             android:gravity="center"
@@ -58,7 +84,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
@@ -73,7 +99,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button1"
                 android:layout_width="17dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -81,7 +107,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -90,7 +116,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button2"
                 android:layout_width="4dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -99,7 +125,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -108,43 +134,22 @@
             android:textColor="@android:color/holo_red_dark" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Order"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="178dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Reset"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-        </LinearLayout>
 
     </LinearLayout>
 
